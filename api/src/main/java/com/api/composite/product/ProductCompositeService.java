@@ -4,7 +4,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 public interface ProductCompositeService {
-
     /**
      * @param productId
      * @return the composite product info, if found, else null

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface ProductService {
     /**
      * @param productId
-     * @returns the product, if found, else null
+     * @return the product, if found, else null
      */
     @GetMapping(
             value = "/product/{productId}",

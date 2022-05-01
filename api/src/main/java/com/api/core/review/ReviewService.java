@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 public interface ReviewService {
-
     /**
      * @param productId
      * @returns the reviews of the product
